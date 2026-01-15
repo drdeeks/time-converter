@@ -1,0 +1,64 @@
+{
+“accountAssociation”: {
+“header”: “eyJmaWQiOjEyMzQ1LCJ0eXBlIjoiY3VzdG9keSIsImtleSI6IjB4MTIzNDU2Nzg5MGFiY2RlZiJ9”,
+“payload”: “eyJkb21haW4iOiJ5b3VyZG9tYWluLmNvbSJ9”,
+“signature”: “MHg4OTAxMjM0NTY3ODkwYWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXoxMjM0NTY3ODkwYWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXoxMjM0”
+},
+“frame”: {
+“version”: “next”,
+“name”: “Time Converter Suite”,
+“iconUrl”: “https://yourdomain.com/icon.png”,
+“homeUrl”: “https://yourdomain.com”,
+“imageUrl”: “https://yourdomain.com/preview.png”,
+“buttonTitle”: “Open Time Converter”,
+“splashImageUrl”: “https://yourdomain.com/splash.png”,
+“splashBackgroundColor”: “#1f2937”,
+“webhookUrl”: “https://yourdomain.com/api/webhook”
+},
+“metadata”: {
+“name”: “Time Converter Suite”,
+“version”: “1.0.0”,
+“description”: “Professional time management and conversion platform with support for 12/24-hour formats, timezone conversion, daily tracking, and validation testing. Precision time calculations for payroll, scheduling, and international coordination.”,
+“author”: “Your Name”,
+“homepage”: “https://yourdomain.com”,
+“icon”: “https://yourdomain.com/icon-512.png”,
+“screenshots”: [
+“https://yourdomain.com/screenshot1.png”,
+“https://yourdomain.com/screenshot2.png”,
+“https://yourdomain.com/screenshot3.png”
+],
+“categories”: [
+“productivity”,
+“tools”,
+“business”
+],
+“keywords”: [
+“time”,
+“converter”,
+“timezone”,
+“calculator”,
+“payroll”,
+“decimal”,
+“hours”,
+“tracking”,
+“business”
+]
+},
+“capabilities”: {
+“sendFrameAction”: true,
+“receiveFrameAction”: true,
+“storage”: true,
+“notifications”: false
+},
+“permissions”: [
+“user.profile”,
+“storage.read”,
+“storage.write”
+],
+“configuration”: {
+“theme”: “dark”,
+“orientation”: “portrait”,
+“fullscreen”: false,
+“minVersion”: “1.0.0”
+}
+}
